@@ -1,0 +1,45 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: min(100%, 1440px);
+  margin: auto;
+  padding-top: 98.4px;
+}
+
+/* header */
+header {
+  background-color: #012426;
+  padding: 28px 94px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  max-width: inherit;
+  width: inherit;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  border-bottom: 2px solid #05bcca;
+}
+
+.burger,
+.x-mark {
+  display: none;
+}
+
+.menu-list {
+  display: flex;
+  column-gap: 72px;
+}
+
+.menu-link {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: #a1c3c9;
+}
