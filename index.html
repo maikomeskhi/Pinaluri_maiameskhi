@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!---- reset ----->
-    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
     <!--- font awesome --->
     <script
       src="https://kit.fontawesome.com/ab58fa8f8e.js"
@@ -34,40 +34,121 @@
     <title>Home page</title>
   </head>
   <body>
-  <!-- container -->
+    <!-- container -->
     <div class="container">
-        <!-- header -->
-        <header>
-            <img src="./images/burger.svg" alt="burger" class="burger">
-            <img src="./images/xmark.svg" alt="x-mark" class="x-mark">
-            <nav class="menu">
-                <ul class="menu-list">
-                    <li>
-                        <a href="./index.html" class="menu-link">Home</a>
-                    </li>
-                    <li>
-                        <a href="./catalog.html" class="menu-link">Catalog</a>
-                    </li>
-                    <li>
-                        <a href="./contact.html" class="menu-link">Contact Us</a>
-                    </li>
-                </ul>
-            </nav>
-            <a href="./index.html">
-                <img src="./images/guitar-logo.svg" alt="guitar-logo" class="guitar-logo">
-            </a>
-            <div class="header-buttons">
-                <button class="header-btn btn-border">
-                    <img src="./images/search-icon.svg" alt="search">
-                </button>
-                <button class="header-btn btn-bg">
-                    <img src="./images/user-icon.svg" alt="user">
-                </button>
-                <button class="header-btn btn-border">
-                    <img src="./images/cart.svg" alt="cart">
-                </button>
-            </div>
-        </header>
+      <!-- header -->
+      <header>
+        <img src="./images/burger.svg" alt="burger" class="burger" />
+        <img src="./images/xmark.svg" alt="x-mark" class="x-mark" />
+        <nav class="menu">
+          <ul class="menu-list">
+            <li>
+              <a href="./index.html" class="menu-link">Home</a>
+            </li>
+            <li>
+              <a href="./catalog.html" class="menu-link">Catalog</a>
+            </li>
+            <li>
+              <a href="./contact.html" class="menu-link">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="./index.html">
+          <img
+            src="./images/guitar-logo.svg"
+            alt="guitar-logo"
+            class="guitar-logo"
+          />
+        </a>
+        <div class="header-buttons">
+          <button class="header-btn btn-border">
+            <img src="./images/search-icon.svg" alt="search icon" />
+          </button>
+          <button class="header-btn btn-bg">
+            <img src="./images/user-icon.svg" alt="user icon" />
+          </button>
+          <button class="header-btn btn-border">
+            <img src="./images/cart-icon.svg" alt="cart icon" />
+          </button>
         </div>
+      </header>
+      <!-- home-section1 -->
+      <section class="home-section1">
+        <a href="#" class="home-section1-link">
+          <h1 class="home-section1-link-title">
+            <span class="home-section1-title-span1">NEW</span>
+            <span class="home-section1-title-span2">COLLECTION</span>
+          </h1>
+          <img src="./images/right-arrow.svg" alt="arrow" />
+        </a>
+      </section>
+
+      <!-- home-section2 -->
+      <section class="home-section2">
+        <div class="container">
+          <h2 class="home-section2-title">Most Popular</h2>
+
+          <div class="products-grid">
+            <!-- card -->
+            <article class="product-card">
+              <div class="card-image-wrapper">
+                <img src="./images/guitar-photo.png" class="product-img" />
+              </div>
+              <div class="card-info">
+                <h3 class="product-title">Product title</h3>
+                <div class="card-bottom">
+                  <span class="product-price">$950</span>
+                  <button class="add-btn">ADD</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card-2">
+              <div class="card-image-wrapper">
+                <img src="./images/guitar-photo.png" class="product-img" />
+              </div>
+              <div class="card-info">
+                <h3 class="product-title">Product title</h3>
+                <div class="card-bottom">
+                  <span class="product-price">$950</span>
+                  <button class="add-btn">ADD</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="card-image-wrapper">
+                <img src="./images/guitar-photo.png" class="product-img" />
+              </div>
+              <div class="card-info">
+                <h3 class="product-title">Product title</h3>
+                <div class="card-bottom">
+                  <span class="product-price">$950</span>
+                  <button class="add-btn">ADD</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="card-image-wrapper">
+                <img src="./images/guitar-photo.png" class="product-img" />
+              </div>
+              <div class="card-info">
+                <h3 class="product-title">Product title</h3>
+                <div class="card-bottom">
+                  <span class="product-price">$950</span>
+                  <button class="add-btn">ADD</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+      
+    </div>
+    <script src="./script.js"></script>
   </body>
 </html>

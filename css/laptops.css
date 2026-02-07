@@ -1,0 +1,29 @@
+/* 1439-769 */
+
+@media (max-width: 1180px) {
+    /* header */
+header{
+    padding-inline: 32px;
+
+}
+
+.burger {
+    display: block;
+}
+
+.menu{
+    position: fixed;
+    top: 98.4px;
+    left: -100%;
+    background-color: #C46A2B;
+}
+
+.menu-list {
+    flex-direction: column;
+    row-gap: 8px;
+    padding: 16px 56px 16px 16px;
+}
+
+
+
+}
