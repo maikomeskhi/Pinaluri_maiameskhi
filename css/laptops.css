@@ -1,29 +1,76 @@
-/* 1439-769 */
+/* ------- 1439px – 769px ------- */
 
 @media (max-width: 1180px) {
-    /* header */
-header{
+  /* all pages' header */
+  header {
     padding-inline: 32px;
+  }
 
-}
-
-.burger {
+  .burger {
     display: block;
-}
+  }
 
-.menu{
+  .menu {
     position: fixed;
-    top: 98.4px;
+    top: 93px;
     left: -100%;
-    background-color: #C46A2B;
-}
+    background-color: #c46a2b;
+    transition: 0.3s linear;
+  }
 
-.menu-list {
+  .menu-list {
     flex-direction: column;
     row-gap: 8px;
     padding: 16px 56px 16px 16px;
-}
+  }
 
+  /* ------- Home page ------- */
 
+  /* home-section2 */
+  .home-section2 {
+    padding: 96px 0 96px 40px;
+  }
 
+  /* all pages' footer */
+
+  footer {
+    column-gap: 66px;
+  }
+
+  /* ------- Catalog page ------- */
+
+  .catalog-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .catalog-section {
+    padding: 96px 32px;
+  }
+
+  /* pagination */
+  .pagination {
+    padding: 64px 393px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page-btn.prev,
+  .page-btn.next {
+    font-size: 0;
+    padding: 0;
+    width: 40px;
+    justify-content: center;
+  }
+
+  .page-btn.prev img,
+  .page-btn.next img {
+    width: 16px;
+    height: 16px;
+  }
+
+  /* ------- Contact Us page ------- */
+
+  main {
+    padding-inline: 32px;
+  }
 }

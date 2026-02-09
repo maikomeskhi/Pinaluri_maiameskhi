@@ -1,0 +1,190 @@
+/* ------- 768px – 481px ------- */
+
+@media (max-width: 745px) {
+  /* all pages' header */
+  header {
+    padding-inline: 24px;
+  }
+
+  /* ------- Home page ------- */
+  /* home-section1 */
+  .home-section1 {
+    height: 480px;
+    padding-top: 32px;
+  }
+
+  /* home-section2 */
+  .home-section2 {
+    padding: 48px 0 48px 24px;
+  }
+
+  /* all pages' footer */
+  footer {
+    column-gap: 66px;
+  }
+
+  /* ------- Catalog page ------- */
+
+  .catalog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .catalog-section {
+    padding: 48px 32px;
+  }
+
+  /* pagination */
+  .pagination {
+    padding: 64px 175px;
+  }
+
+  .page-btn.prev,
+  .page-btn.next {
+    font-size: 0;
+    padding: 0;
+    width: 40px;
+    justify-content: center;
+  }
+
+  .page-btn.prev img,
+  .page-btn.next img {
+    width: 16px;
+    height: 16px;
+  }
+
+  /* ------- Contact Us page ------- */
+
+  main {
+    padding: 80px 40px;
+  }
+
+  .contact-wrapper {
+    flex-direction: column;
+    row-gap: 36px;
+    padding-block: 16px;
+  }
+
+  .contact-form,
+  .contact-map {
+    width: 100%;
+  }
+
+  .contact-submit-btn {
+    width: 100%;
+  }
+
+  iframe {
+    height: 200px;
+  }
+}
+
+/* ------- 481px ------- */
+
+@media (max-width: 481px) {
+  /* header */
+  header {
+    padding: 28px 20px;
+  }
+
+  .guitar-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .header-buttons {
+    column-gap: 16px;
+  }
+
+  .header-btn {
+    width: 32px;
+    height: 32px;
+  }
+
+  /* home-section1 */
+  .home-section1-link {
+    column-gap: 16px;
+  }
+
+  .home-section1-link-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  /* most popular */
+  .home-section2 {
+    padding: 32px 0 32px 20px;
+  }
+
+  /* footer */
+  footer {
+    padding-block: 32px;
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .social-list {
+    justify-content: center;
+  }
+
+  /* ------- Catalog page ------- */
+
+  .filter span {
+    display: none;
+  }
+
+  .catalog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .catalog-section {
+    padding: 32px 20px;
+  }
+
+  /* pagination */
+  .pagination {
+    padding: 48px 118px;
+  }
+
+  .page-btn.prev,
+  .page-btn.next {
+    font-size: 0;
+    padding: 0;
+    width: 40px;
+    justify-content: center;
+  }
+
+  .page-btn.prev img,
+  .page-btn.next img {
+    width: 16px;
+    height: 16px;
+  }
+
+  /* ------- Contact Us page ------- */
+
+  .contact-wrapper {
+    flex-direction: column;
+    row-gap: 36px;
+    padding-inline: 16px;
+  }
+
+  .contact-form,
+  .contact-map {
+    width: 100%;
+  }
+
+  .contact-title {
+    margin-bottom: 24px;
+  }
+
+  .contact-form-row,
+  .contact-message-box {
+    flex-direction: column;
+    row-gap: 36px;
+  }
+
+  .contact-map {
+    row-gap: 24px;
+  }
+}
